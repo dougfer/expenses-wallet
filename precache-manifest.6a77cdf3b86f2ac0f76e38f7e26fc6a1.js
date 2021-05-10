@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dfa805d7ae962ac39c15c8a53134d03d",
+    "revision": "da005f12fcbe3b920be186b71a5f5f7d",
     "url": "/expenses-wallet/index.html"
   },
   {
-    "revision": "2fec2e382fb9ea199b11",
+    "revision": "904fd91718e4907f20af",
     "url": "/expenses-wallet/static/css/main.e02a2048.chunk.css"
   },
   {
-    "revision": "ed7b0346fc6c7ae6313b",
-    "url": "/expenses-wallet/static/js/2.2965fa4b.chunk.js"
+    "revision": "7bc9bd35285d0e4b32a8",
+    "url": "/expenses-wallet/static/js/2.b2d00b82.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/expenses-wallet/static/js/2.2965fa4b.chunk.js.LICENSE.txt"
+    "url": "/expenses-wallet/static/js/2.b2d00b82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fec2e382fb9ea199b11",
-    "url": "/expenses-wallet/static/js/main.46aa885d.chunk.js"
+    "revision": "904fd91718e4907f20af",
+    "url": "/expenses-wallet/static/js/main.47e10b65.chunk.js"
   },
   {
     "revision": "ed0f1c020f0eb2136abb",
