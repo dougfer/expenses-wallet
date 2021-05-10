@@ -1,0 +1,17 @@
+.table tr, th, thead, table, tbody, td{
+  border: 1px solid black;
+  transition: all 0.2s;
+}
+
+.table thead tr th{
+  width: 100px;
+  text-justify: auto;
+}
+
+.table thead tr th:nth-child(1) {
+  width: 300px;
+}
+
+.table tbody tr:hover {
+  background-color: #32F2F0;
+}

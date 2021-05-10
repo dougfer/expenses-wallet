@@ -1,0 +1,51 @@
+.mainComponent {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 300px;
+  margin: auto;
+  margin-top: 10%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 2px black;
+  border-radius: 5px;
+  background-color: #FFFFCC;
+
+}
+
+.email {
+  width: 80%;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s all;
+}
+
+.password {
+  width: 80%;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 0.5s all;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.button:disabled{
+  cursor:not-allowed;
+}
+
+.email:focus {
+  transform: scale(1.1);
+  outline: 0;
+}
+
+.password:focus{
+  transform: scale(1.1);
+  outline: 0;
+}
