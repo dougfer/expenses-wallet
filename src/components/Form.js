@@ -134,7 +134,10 @@ class Form extends React.Component {
   render() {
     const { buttonText } = this.props;
     return (
-      <div className={ Styles.form }>
+      <div 
+        className={ Styles.form }
+        style={buttonText === "Adicionar despesa" ? {"background-color": "#32B8F0"} : {"background-color": "#00CC00"}}
+      >
         {this.handleInputs()}
         {this.handleCurrency()}
         {this.handleMethods()}

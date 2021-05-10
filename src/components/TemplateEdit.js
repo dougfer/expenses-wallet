@@ -7,7 +7,6 @@ import { saveExpense } from '../actions';
 
 class TemplateEdit extends React.Component {
   render() {
-    //  Lógica do requisito 7 aprendida junto ao plantão do fds
     const { expenses, idToEdit, saveExpenses } = this.props;
     const expensetoEdt = { ...expenses.find((expense) => expense.id === idToEdit) };
     delete expensetoEdt.exchangeRates;
