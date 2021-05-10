@@ -4,6 +4,10 @@ import Login from './pages/Login';
 import Wallet from './pages/Wallet';
 
 class App extends React.Component {
+
+  componentDidMount() {
+    document.title = "My Expenses"
+  }
   render() {
     return (
       <Switch>
